@@ -1,0 +1,14 @@
+{
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "X-Robots-Tag", "value": "all" },
+        { "key": "Cache-Control", "value": "no-cache" },
+        { "key": "Pragma", "value": "no-cache" },
+        { "key": "X-Prerender-Ready", "value": "true" }
+      ]
+    }
+  ]
+}
