@@ -1,0 +1,7 @@
+/*
+  Access-Control-Allow-Origin: *
+  X-Robots-Tag: all
+  Cache-Control: no-cache
+  Pragma: no-cache
+/ 
+  X-Prerender-Ready: true
