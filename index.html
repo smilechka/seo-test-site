@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Test Page</title>
+    <meta name="description" content="A simple website for testing Prerender.io and SEO optimizations.">
+    <meta name="keywords" content="SEO, Prerender, JavaScript, Testing">
+    <meta name="author" content="Your Name">
+    <meta name="prerender-token" content="ZRVRK71vuWdQnnnkni39">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .content {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My SEO Test Page</h1>
+    <p>Click the button to see some magic!</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+    
+    <div class="content">
+        <h2>About This Page</h2>
+        <p>This is a simple page designed to test Prerender.io and see how Google renders JavaScript-heavy content.</p>
+        <h2>Key Features</h2>
+        <ul>
+            <li>Dynamically generated content</li>
+            <li>Meta tags for SEO</li>
+            <li>Simple JavaScript interactions</li>
+        </ul>
+        <h2>Additional Content</h2>
+        <p>This paragraph exists to see how Prerender.io handles longer content blocks and structured HTML elements.</p>
+    </div>
+    
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerText = "Hello, you clicked the button!";
+        }
+    </script>
+</body>
+</html>
